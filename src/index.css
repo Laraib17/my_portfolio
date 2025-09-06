@@ -4,3 +4,12 @@ html,body{
   background-color: black;
   color: white;
 }
+@theme{
+  --color-white-50:#d9ecff;
+  --colcor-blue-100:#2d2d38;
+}
+@layer utilities {
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+}
