@@ -1,5 +1,6 @@
 import React from "react";
 import {getdata} from "java.js";
+let url="https://jsonplaceholder.typicode.com/posts";
 const App = () => {
   return (
     <main>
