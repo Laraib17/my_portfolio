@@ -1,9 +1,9 @@
 @import 'tailwindcss';
-html,body{
+/* html,body{
   width: 100w;
-  background-color: rgb(254, 215, 183);
+  background-color: rgb(255, 225, 201);
   color: rgb(252, 79, 145);
-}
+} */
 @theme{
   --color-white-50:#d9ecff;
   --colcor-blue-100:#2d2d38;

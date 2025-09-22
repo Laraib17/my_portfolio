@@ -12,7 +12,8 @@ import Navbar from './components/navbar';
 const App = () => {
   return (
     <div className="px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]">
-      <Navbar />
+      <img src="assets/logo.png" alt="" />
+      <Navbar/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/product/:productId" element={<Product />} />
