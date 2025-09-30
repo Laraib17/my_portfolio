@@ -12,6 +12,7 @@ import BasicExample from './components/navbar';
 const App = () => {
   return (
     <div>
+      <p>hello world</p>
       <BasicExample />
       <Routes>
         <Route path="/" element={<Home />} />
