@@ -12,7 +12,7 @@ import BasicExample from './components/navbar';
 const App = () => {
   return (
     <div>
-      <p>hello world</p>
+      <p className=' text-2xl text-red-400'>hello world</p>
       <BasicExample />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -22,7 +22,7 @@ const App = () => {
         <Route path="/order" element={<Order />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/Navbar" element={<Navbar />} />
+        {/* <Route path="/Navbar" element={<Navbar />} /> */}
       </Routes>
     </div>
   );
