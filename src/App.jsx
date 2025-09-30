@@ -7,13 +7,12 @@ import PlaceOrder from './pages/PlaceOrder';
 import Order from './pages/Order';
 import Cart from './pages/cart';
 import Contact from './pages/Contact';
-import Navbar from './components/navbar';
+import BasicExample from './components/navbar';
 
 const App = () => {
   return (
-    <div className="px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]">
-      <img src="assets/logo.png" alt="" />
-      <Navbar/>
+    <div>
+      <BasicExample />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/product/:productId" element={<Product />} />
