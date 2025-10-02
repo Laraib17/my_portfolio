@@ -5,7 +5,6 @@ import { BrowserRouter } from 'react-router-dom'
 import "./index.css"
 
 const rootElement = document.getElementById('root');
-<p>hello world</p>
 if (rootElement) {
   createRoot(rootElement).render(
     <BrowserRouter>

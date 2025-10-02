@@ -7,13 +7,12 @@ import PlaceOrder from './pages/PlaceOrder';
 import Order from './pages/Order';
 import Cart from './pages/cart';
 import Contact from './pages/Contact';
-import BasicExample from './components/navbar';
+import BasicExample from './components/Navbar';
 
 const App = () => {
   return (
     <div>
-      <p className=' text-2xl text-red-400'>hello world</p>
-      <BasicExample />
+      <BasicExample/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/product/:productId" element={<Product />} />
@@ -22,7 +21,6 @@ const App = () => {
         <Route path="/order" element={<Order />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/contact" element={<Contact />} />
-        {/* <Route path="/Navbar" element={<Navbar />} /> */}
       </Routes>
     </div>
   );
