@@ -3,7 +3,7 @@ import { logo } from "../assets/assets";
 import {profile_icon} from "../assets/assets";
 function BasicExample() {
   return (
-    <div className="flex items-center justify-between px-10 py-4 bg-gray-800  text-teal-200">
+    <div className="flex items-center justify-between sm:items-center px-10 py-4 bg-gray-800  text-teal-200">
       <div className="flex items-center gap-2 justify-between">
          <button onClick={() => document.getElementById("my-drawer-3").checked = true} className="drawer-toggle btn btn-primary lg:hidden">
             =
@@ -36,12 +36,12 @@ function BasicExample() {
         <div className="group relative">
           <img className="w-10 cursor-pointer rounded-full" src={profile_icon} alt="" />
           <div className="group-hover:block hidden absolute right-0 mt-2 w-48 bg-white border border-gray-200 rounded shadow-lg">
-            <div></div>
+            <div className="p-4 border-b border-gray-200">
+            </div>
           </div>
         </div>
       </div>
     </div>
   );
 }
-
 export default BasicExample;
