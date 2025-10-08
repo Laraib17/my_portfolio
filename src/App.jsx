@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Login from './pages/Login';
 import Contact from './pages/Contact';
 import BasicExample from './components/Navbar';
+import { div } from 'three/tsl';
 
 const App = () => {
   return (
