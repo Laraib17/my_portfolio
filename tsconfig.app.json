@@ -23,5 +23,5 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-  "include": ["src", "main.jsx"]
+  "include": ["src", "main.jsx", "App.jsx"]
 }

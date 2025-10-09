@@ -1,9 +1,9 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import Home from './pages/Home';
-import Login from './pages/Login';
-import Contact from './pages/Contact';
-import BasicExample from './components/Navbar';
+import Home from './src/pages/Home';
+import Login from './src/pages/Login';
+import Contact from './src/pages/Contact';
+import BasicExample from './src/components/Navbar';
 import { div } from 'three/tsl';
 
 const App = () => {
