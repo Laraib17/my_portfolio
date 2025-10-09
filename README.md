@@ -1,69 +1,86 @@
-# React + TypeScript + Vite
+Here’s a clean and professional **README.md** for your **portfolio repository**:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+# 🌐 Personal Portfolio
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Welcome to my **Portfolio Website** — a showcase of my projects, skills, and achievements in the field of technology and development.
+This portfolio highlights my journey as a developer and includes my work in **AI/ML, Web Development, and App Development**.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🚀 Tech Stack
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+**Frontend:** HTML5, CSS3, JavaScript, React / Flutter
+**Backend:** Node.js / Django
+**Database:** MongoDB / MySQL
+**AI/ML:** Python (Scikit-learn, TensorFlow, OpenCV)
+**Hosting:** GitHub Pages / Vercel / Netlify
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🧑‍💻 About Me
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Hi, I'm **Laraib Ahmad Siddique**, a passionate **B.Tech CSE (3rd Year)** student and developer.
+I love building intelligent and user-friendly applications — from **AI/ML models** like *Parkinson’s Detection using SVM* to **full-stack web and Flutter apps**.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📂 Features
+
+* 💼 Showcase of Projects (AI/ML, Flutter, Web, etc.)
+* 🧠 Skills & Tools section
+* 📄 Resume Download option
+* 🌍 Social media & contact links
+* 📱 Fully responsive design
+
+---
+
+## 🧩 Projects Included
+
+| Project                                   | Description                                                     |
+| ----------------------------------------- | --------------------------------------------------------------- |
+| **Parkinson’s Disease Detection (AI/ML)** | Machine learning model using SVM to predict Parkinson’s disease |
+| **Spotube**                               | Music streaming app with a clean Flutter interface              |
+| **Health App**                            | Flutter-based app for health tracking and recommendations       |
+| **Crypto Price Prediction**               | AI-based system for predicting cryptocurrency prices            |
+
+---
+
+## 🛠️ Setup Instructions
+
+1. Clone the repository
+
+   ```bash
+   git clone https://github.com/<your-username>/<repo-name>.git
+   ```
+2. Navigate to the project folder
+
+   ```bash
+   cd <repo-name>
+   ```
+3. Install dependencies
+
+   ```bash
+   npm install   # or flutter pub get
+   ```
+4. Run the project
+
+   ```bash
+   npm start     # or flutter run
+   ```
+
+---
+
+## 📬 Contact
+
+📧 **Email:** [yourname@email.com](mailto:yourname@email.com)
+💼 **LinkedIn:** [linkedin.com/in/yourprofile](#)
+🐙 **GitHub:** [github.com/yourusername](#)
+🌐 **Portfolio Link:** [your-portfolio-link.com](#)
+
+---
+
+## 📝 License
+
+This project is open-source and available under the **MIT License**.
