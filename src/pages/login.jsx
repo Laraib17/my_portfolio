@@ -20,7 +20,7 @@ const login = () => {
         </section>
       </div>
     </div>
-  )
+  );
 }
 
 export default login
