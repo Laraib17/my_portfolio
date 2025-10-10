@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Github, Linkedin, Mail, Code, Briefcase, GraduationCap, Award, ExternalLink, ChevronDown } from 'lucide-react';
+import BasicExample from '../components/Navbar';
 
 export default function Portfolio() {
   const [activeSection, setActiveSection] = useState('home');
@@ -69,21 +70,6 @@ export default function Portfolio() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white">
-      {/* Navigation */}
-      <nav className="fixed top-0 w-full bg-slate-900/80 backdrop-blur-md z-50 border-b border-purple-500/20">
-        <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-          <div className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-            LA
-          </div>
-          <div className="flex gap-6">
-            <a href="#home" className="hover:text-purple-400 transition-colors">Home</a>
-            <a href="#projects" className="hover:text-purple-400 transition-colors">Projects</a>
-            <a href="#experience" className="hover:text-purple-400 transition-colors">Experience</a>
-            <a href="#contact" className="hover:text-purple-400 transition-colors">Contact</a>
-          </div>
-        </div>
-      </nav>
-
       {/* Hero Section */}
       <section id="home" className="min-h-screen flex items-center justify-center px-6 pt-20">
         <div className={`max-w-4xl mx-auto text-center transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
@@ -156,7 +142,7 @@ export default function Portfolio() {
       {/* Projects Section */}
       <section id="projects" className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold mb-12 text-center bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+          <h2 className=" text-4xl font-bold mb-12 text-center bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
             Featured Projects
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
