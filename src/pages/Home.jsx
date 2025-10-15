@@ -1,10 +1,16 @@
 import React, { useState, useEffect } from 'react';
-import { Github, Linkedin, Mail, Code, Briefcase, GraduationCap, Award, ExternalLink, ChevronDown } from 'lucide-react';
-import BasicExample from '../components/Navbar';
+import {  Github, Linkedin,Mail, Code, Briefcase, GraduationCap, Award, ExternalLink, ChevronDown } from 'lucide-react';
+//import BasicExample from '../components/Navbar';
+import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
 export default function Portfolio() {
   const [activeSection, setActiveSection] = useState('home');
   const [isVisible, setIsVisible] = useState(false);
+  const [text] = useTypewriter({
+  words: ["Full-Stack Developer", "Machine Learning Enthusiast", "Open Source Contributor"],
+  loop: true,
+  delaySpeed: 2000,
+});
 
   useEffect(() => {
     setIsVisible(true);
@@ -75,7 +81,7 @@ export default function Portfolio() {
         <div className={`max-w-4xl mx-auto text-center transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <div className="mb-6">
             <span className="px-4 py-2 bg-purple-500/20 rounded-full text-purple-300 text-sm border border-purple-500/30">
-              Software Developer
+              {text}<Cursor cursorColor="#d946ef" />
             </span>
           </div>
           <h1 className="text-6xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent">
