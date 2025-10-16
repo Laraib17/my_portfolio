@@ -132,7 +132,7 @@ export default function Portfolio() {
             {Object.entries(skills).map(([category, items]) => (
               <div key={category} className="bg-slate-800/50 p-6 rounded-xl border border-purple-500/20 hover:border-purple-500/40 transition-all hover:transform hover:scale-105">
                 <h3 className="text-xl font-semibold mb-4 text-purple-300">{category}</h3>
-                <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap gap-2 hover:gap-3 transition-all">
                   {items.map(skill => (
                     <span key={skill} className="px-3 py-1 bg-purple-500/20 rounded-full text-sm text-gray-300">
                       {skill}
