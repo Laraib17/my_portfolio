@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Home from './src/pages/Home';
-import Login from './src/pages/Login';
+import Login from './src/pages/login';
 import Contact from './src/pages/contact';
 import BasicExample from './src/components/Navbar';
 import { div } from 'three/tsl';
