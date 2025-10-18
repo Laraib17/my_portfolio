@@ -143,9 +143,6 @@ export default function Contact() {
             </div>
 
             <div className="flex items-center justify-between gap-4">
-              <Button type="submit" disabled={loading} className="px-4 py-2">
-                {loading ? "Sending..." : "Send message"}
-              </Button>
 
               <div>
                 {status && (
