@@ -86,9 +86,60 @@ export default function Contact() {
         </div>
         <div>
           <div className="bg-white/80 dark:bg-zinc-900/60 border border-zinc-200 dark:border-zinc-800 rounded-2xl p-6 shadow-sm">
-            {/* Your form remains unchanged */}
+            <form onSubmit={handleSubmit} className="space-y-4">
+              <div>
+                <label className="block text-sm font-medium mb-1" htmlFor="name">
+                  Name
+                </label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  value={form.name}
+                  onChange={onChange}
+                  className="block w-full border border-zinc-300 dark:border-zinc-700 rounded-md p-2"
+                  required
+                />
+              </div>
+              <div>
+                <label className="block text-sm font-medium mb-1" htmlFor="email">
+                  Email
+                </label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  value={form.email}
+                  onChange={onChange}
+                  className="block w-full border border-zinc-300 dark:border-zinc-700 rounded-md p-2"
+                  required
+                />
+              </div>
+              <div>
+                <label className="block text-sm font-medium mb-1" htmlFor="message">
+                  Message
+                </label>
+                <textarea
+                  id="message"
+                  name="message"
+                  value={form.message}
+                  onChange={onChange}
+                  className="block w-full border border-zinc-300 dark:border-zinc-700 rounded-md p-2"
+                  rows="4"
+                  required
+                />
+              </div>
+              <div>
+                <button
+                  type="submit"
+                  className="w-full bg-blue-600 text-white rounded-md p-2"
+                  disabled={loading}
+                >
+                  {loading ? "Sending..." : "Send Message"}
+                </button>
+              </div>
+            </form>
           </div>
-          <div></div>
         </div>
       </div>
     </motion.section>
