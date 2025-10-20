@@ -23,7 +23,7 @@ export function EscapeText() {
   return (
     <h2
       ref={ref}
-      className="text-4xl font-bold absolute transition-transform duration-150 cursor-pointer"
+      className="text-4xl font-bold absolute transition-transform duration-100 cursor-grab merriweather-newclass-400"
       style={{ transform: `translate(${position.x}px, ${position.y}px)` }}
       onMouseMove={handleMouseMove}
     >
