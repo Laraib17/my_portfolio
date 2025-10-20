@@ -11,8 +11,8 @@ export function EscapeText() {
     const mouseX = e.clientX;
     const mouseY = e.clientY;
 
-    const offsetX = (rect.left + rect.width / 2) - mouseX;
-    const offsetY = (rect.top + rect.height / 2) - mouseY;
+    const offsetX = rect.left + rect.width / 2 - mouseX;
+    const offsetY = rect.top + rect.height / 2 - mouseY;
 
     setPosition({
       x: offsetX * 0.3,
@@ -50,11 +50,17 @@ export default function Contact() {
         body: JSON.stringify(form),
       });
       if (res.ok) {
-        setStatus({ type: "success", message: "Message sent! I'll get back to you soon." });
+        setStatus({
+          type: "success",
+          message: "Message sent! I'll get back to you soon.",
+        });
         setForm({ name: "", email: "", message: "" });
       } else {
         const json = await res.json();
-        setStatus({ type: "error", message: json?.error || "Failed to send message." });
+        setStatus({
+          type: "error",
+          message: json?.error || "Failed to send message.",
+        });
       }
     } catch (err) {
       setStatus({ type: "error", message: "Network error — try again later." });
@@ -73,13 +79,16 @@ export default function Contact() {
         <div className="space-y-6 relative h-40">
           <EscapeText />
           <p className="text-muted-foreground max-w-xl mt-20">
-            I’m currently open to new projects and collaborations. Send a message and I’ll reply as soon as
-            possible. Prefer email? Use the quick links below.
+            I’m currently open to new projects and collaborations. Send a
+            message and I’ll reply as soon as possible. Prefer email? Use the
+            quick links below.
           </p>
         </div>
-
-        <div className="bg-white/80 dark:bg-zinc-900/60 border border-zinc-200 dark:border-zinc-800 rounded-2xl p-6 shadow-sm">
-          {/* Your form remains unchanged */}
+        <div>
+          <div className="bg-white/80 dark:bg-zinc-900/60 border border-zinc-200 dark:border-zinc-800 rounded-2xl p-6 shadow-sm">
+            {/* Your form remains unchanged */}
+          </div>
+          <div></div>
         </div>
       </div>
     </motion.section>
