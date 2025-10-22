@@ -5,6 +5,9 @@ function EscapeText() {
 
   const handleMouseMove = (e) => {
     const rect = ref.current.getBoundingClientRect();
+    
+    
+    
     const mouseX = e.clientX;
     const mouseY = e.clientY;
 
