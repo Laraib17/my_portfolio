@@ -1,3 +1,4 @@
+import React, { useState, useRef } from "react";
 function EscapeText() {
   const [position, setPosition] = useState({ x: 0, y: 0 });
   const ref = useRef(null);

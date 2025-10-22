@@ -46,7 +46,7 @@ export default function Contact() {
     >
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
         <div className="space-y-6 relative h-40">
-          <EscapeText />
+          <EscapeText/>
           <p className="text-muted-foreground max-w-xl mt-20">
             I’m currently open to new projects and collaborations. Send a
             message and I’ll reply as soon as possible. Prefer email? Use the
