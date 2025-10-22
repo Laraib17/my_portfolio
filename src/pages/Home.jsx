@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import {  Github, Linkedin,Mail, Code, Briefcase, GraduationCap, Award, ExternalLink, ChevronDown } from 'lucide-react';
-//import BasicExample from '../components/Navbar';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
 export default function Portfolio() {
