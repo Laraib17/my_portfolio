@@ -98,11 +98,11 @@ export default function Portfolio() {
                className="p-3 bg-purple-500/20 rounded-full hover:bg-purple-500/30 transition-all hover:scale-110 border border-purple-500/30">
               <Github className="w-6 h-6" />
             </a>
-            <a href="https://linkedin.com/in/laraib" target="_blank" rel="noopener noreferrer"
+            <a href="https://www.linkedin.com/in/laraib-ahmad-b96214251/" target="_blank" rel="noopener noreferrer"
                className="p-3 bg-purple-500/20 rounded-full hover:bg-purple-500/30 transition-all hover:scale-110 border border-purple-500/30">
               <Linkedin className="w-6 h-6" />
             </a>
-            <a href="mailto:labbuxt@gmail.com"
+            <a href="labbuxt@gmail.com"
                className="p-3 bg-purple-500/20 rounded-full hover:bg-purple-500/30 transition-all hover:scale-110 border border-purple-500/30">
               <Mail className="w-6 h-6" />
             </a>
