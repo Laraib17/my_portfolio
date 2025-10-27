@@ -15,8 +15,8 @@ function BasicExample() {
           <p className="hover:text-teal-500 ">Home</p>
           <hr className="border-t border-ptext-teal-500 w-full hidden" />
         </NavLink>
-        <NavLink to="/about" className="flex flex-col items-center gap- ">
-          <p className="hover:text-teal-500">About</p>
+        <NavLink to="/projects" className="flex flex-col items-center gap- ">
+          <p className="hover:text-teal-500">Projects</p>
           <hr className="border-t border-ptext-teal-500 w-full hidden" />
         </NavLink>
         <NavLink to="/services" className="flex flex-col items-center gap- ">

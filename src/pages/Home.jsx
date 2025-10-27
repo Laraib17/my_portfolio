@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import {  Github, Linkedin,Mail, Code, Briefcase, GraduationCap, Award, ExternalLink, ChevronDown } from 'lucide-react';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
-
+import { NavLink } from 'react-router-dom';
 export default function Portfolio() {
   const [activeSection, setActiveSection] = useState('home');
   const [isVisible, setIsVisible] = useState(false);
@@ -108,12 +108,12 @@ export default function Portfolio() {
             </a>
           </div>
           <div className="flex gap-4 justify-center">
-            <a href="#projects" className="px-8 py-3 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg font-semibold hover:shadow-lg hover:shadow-purple-500/50 transition-all hover:scale-105">
+            <NavLink to="/projects" className="px-8 py-3 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg font-semibold hover:shadow-lg hover:shadow-purple-500/50 transition-all hover:scale-105">
               View My Work
-            </a>
-            <a href="mailto:labbuxt@gmail.com" className="px-8 py-3 bg-slate-800 rounded-lg font-semibold border border-purple-500/30 hover:bg-slate-700 transition-all">
+            </NavLink>
+            <NavLink to="/contact" className="px-8 py-3 bg-slate-800 rounded-lg font-semibold border border-purple-500/30 hover:bg-slate-700 transition-all">
               Contact Me
-            </a>
+            </NavLink>
           </div>
           <div className="mt-16 animate-bounce">
             <ChevronDown className="w-8 h-8 mx-auto text-purple-400" />
