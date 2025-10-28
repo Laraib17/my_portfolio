@@ -1,11 +1,9 @@
-import React from 'react'
-
+import React from 'react';
+import { UseQueryOptions } from '@tanstack/react-query';
 const projects = () => {
   return (
     <div>
-      <p>ok
-        
-      </p>
+
     </div>
   )
 }
