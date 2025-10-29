@@ -1,8 +1,9 @@
 import React from 'react';
 import { UseQueryOptions } from '@tanstack/react-query';
-function datax_x(){
-  const UseQueryOptions=UseQueryOptions;
-}
+const {data, isLoading, isError, error} = useQuery({
+  queryKey: ['projects'],
+  queryFn: fetchProjects,
+});
 const projects = () => {
   return (
     <div>
