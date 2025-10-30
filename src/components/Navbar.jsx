@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { logo } from "../assets/assets";
 import {profile_icon} from "../assets/assets";
+import { useQuery } from "@tanstack/react-query";
 function BasicExample() {
   const {data, isLoading, isError, error} = useQuery({
     queryKey: ['projects'],
