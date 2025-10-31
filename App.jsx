@@ -5,8 +5,7 @@ import Login from './src/pages/login';
 import Contact from './src/pages/contact';
 import Project from './src/pages/Projects';
 import BasicExample from './src/components/Navbar';
-
-const App = () => {
+const App = () =>{
   return (
     <div>
       <BasicExample/>
