@@ -1,17 +1,16 @@
 import React from 'react';
-//import { UseQueryOptions } from '@tanstack/react-query';
+import { UseQuery } from '@tanstack/react-query';
+function get_projects(){
+  return fetch('/api/projects').then(res=>res.json())
+}
 const projects = () => {
+  const {data,isPending,error}= UseQuery({
+    queryKey: ['projects'],    
+    queryFn: get_projects,
+  })
   return (
     <div>
-      <li>
-        <ul>
-          <div>
-            <p></p>
-            <p></p>
-            <p></p>
-          </div>
-        </ul>
-      </li>
+
     </div>
   )
 }
