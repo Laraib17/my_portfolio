@@ -4,13 +4,13 @@ const login = () => {
     <div>
       <div>
         <section>
-          <div></div>
+          <div className="flex border-b"></div>
         </section>
         <section>
-          <div></div>
+          <div className="flex border-b "></div>
         </section>
         <section>
-          <div></div>
+          <div className="flex border-b "></div>
         </section>
       </div> 
     </div>
