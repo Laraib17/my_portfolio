@@ -1,6 +1,6 @@
 import React from 'react';
-import { UseQuery } from '@tanstack/react-query';
-import {infinite_spinner} from "../assets/assets";
+//import { UseQuery } from '@tanstack/react-query';
+//import {infinite_spinner} from "../assets/assets";
 const get_projects = async (url) => {
   const res = await fetch(url);
   if (!res.ok) throw new Error('Network response was not ok');
