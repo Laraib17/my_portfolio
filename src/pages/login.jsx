@@ -4,13 +4,16 @@ const login = () => {
     <div>
       <div>
         <section>
-          <div className="flex border-b"><h1>hello</h1></div>
+          <div className="flex border-b"><h1 className='text-xl font-bold'>hello</h1>
+          <p>world</p></div>
         </section>
         <section>
-          <div className="flex border-b "><h1>hello</h1></div>
+          <div className="flex border-b "><h1 className='text-xl font-bold'>hello</h1>
+          <p>world</p></div>
         </section>
         <section>
-          <div className="flex border-b "><h1>hello</h1></div>
+          <div className="flex border-b "><h1 className='text-xl font-bold'>hello</h1>
+          <p>world</p></div>
         </section>
       </div> 
     </div>
