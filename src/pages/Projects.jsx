@@ -1,5 +1,5 @@
 import React from 'react';
-import { UseQuery } from '@tanstack/react-query';
+//import { UseQuery } from '@tanstack/react-query';
 //import {infinite_spinner} from "../assets/assets";
 const get_projects = async (url) => {
   const res = await fetch(url);
