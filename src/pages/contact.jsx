@@ -2,7 +2,6 @@ import React, { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import EscapeText from "../components/Escape_Text";
 import { useMutation } from "@tanstack/react-query";
-
 export default function Contact() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
 
@@ -121,6 +120,9 @@ export default function Contact() {
             </form>
           </div>
         </div>
+      </div>
+      <div>
+        {}
       </div>
     </motion.section>
   );
