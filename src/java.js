@@ -1,4 +1,4 @@
-let url="'https://jsonplaceholder.typicode.com/todos/1'";
+let url='https://jsonplaceholder.typicode.com/todos/1';
 function getdata(url){
   fetch(url)
     .then(response => response.json())
