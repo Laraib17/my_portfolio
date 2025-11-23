@@ -2,6 +2,7 @@ import React, { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import EscapeText from "../components/Escape_Text";
 import { useMutation } from "@tanstack/react-query";
+//import { getdata } from "../Java.js";
 export default function Contact() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
 
@@ -24,8 +25,7 @@ export default function Contact() {
     },
   });
 
-  const onChange = (e) =>
-    setForm({ ...form, [e.target.name]: e.target.value });
+  const onChange = (e) => setForm({ ...form, [e.target.name]: e.target.value });
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -53,7 +53,10 @@ export default function Contact() {
           <div className="bg-white/80 dark:bg-zinc-900/60 border border-zinc-200 dark:border-zinc-800 rounded-2xl p-6 shadow-sm">
             <form onSubmit={handleSubmit} className="space-y-4">
               <div>
-                <label className="block text-sm font-medium mb-1" htmlFor="name">
+                <label
+                  className="block text-sm font-medium mb-1"
+                  htmlFor="name"
+                >
                   Name
                 </label>
                 <input
@@ -68,7 +71,10 @@ export default function Contact() {
               </div>
 
               <div>
-                <label className="block text-sm font-medium mb-1" htmlFor="email">
+                <label
+                  className="block text-sm font-medium mb-1"
+                  htmlFor="email"
+                >
                   Email
                 </label>
                 <input
@@ -83,7 +89,10 @@ export default function Contact() {
               </div>
 
               <div>
-                <label className="block text-sm font-medium mb-1" htmlFor="message">
+                <label
+                  className="block text-sm font-medium mb-1"
+                  htmlFor="message"
+                >
                   Message
                 </label>
                 <textarea
@@ -122,7 +131,7 @@ export default function Contact() {
         </div>
       </div>
       <div className="flex justify-center mt-12 space-x-6">
-        {getdata('https://jsonplaceholder.typicode.com/todos/1')}
+        {getdata("https://jsonplaceholder.typicode.com/todos/1")}
       </div>
     </motion.section>
   );
