@@ -130,9 +130,9 @@ export default function Contact() {
           </div>
         </div>
       </div>
-      <div className="flex justify-center mt-12 space-x-6">
+      {/*<div className="flex justify-center mt-12 space-x-6">
         {getdata("https://jsonplaceholder.typicode.com/todos/1")}
-      </div>
+      </div>*/}
     </motion.section>
   );
 }
