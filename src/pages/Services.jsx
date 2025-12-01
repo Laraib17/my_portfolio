@@ -2,6 +2,7 @@ import React from "react";
 import { service } from "../data/services_data";
 import { Globe, Smartphone, Brain, Code, ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
+import PurpleBubbles from "../components/PurpleBubbles";
 
 const iconMap = {
   Globe: Globe,
@@ -12,8 +13,9 @@ const iconMap = {
 
 const Services = () => {
   return (
-    <div className="min-h-screen bg-gray-900 text-white py-20 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-7xl mx-auto">
+    <div className="min-h-screen bg-gray-900 text-white py-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+      <PurpleBubbles />
+      <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-16">
           <motion.h2
             initial={{ opacity: 0, y: -20 }}
