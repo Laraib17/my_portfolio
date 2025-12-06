@@ -25,5 +25,17 @@ export const projects = [
     description: "Side-scrolling helicopter game with collision detection, physics, and sprite animations using SDL library.",
     tech: ["C++", "SDL", "OOP"],
     github: "https://github.com/laraib17/ww3-game" // Placeholder
+  },
+  {
+    title: "WW-3 2D Game",
+    description: "Side-scrolling helicopter game with collision detection, physics, and sprite animations using SDL library.",
+    tech: ["C++", "SDL", "OOP"],
+    github: "https://github.com/laraib17/ww3-game" // Placeholder
+  },
+  {
+    title: "WW-3 2D Game",
+    description: "Side-scrolling helicopter game with collision detection, physics, and sprite animations using SDL library.",
+    tech: ["C++", "SDL", "OOP"],
+    github: "https://github.com/laraib17/ww3-game" // Placeholder
   }
 ];
