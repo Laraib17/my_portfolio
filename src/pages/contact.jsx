@@ -110,7 +110,7 @@ export default function Contact() {
                     onChange={onChange}
                     placeholder="Name"
                     className={inputClasses}
-                    whileFocus={{ borderBottomColor: "#3b82f6" }}
+                    whileFocus={{ borderBottomColor: "#042f75ff" }}
                     required
                   />
                 </div>
