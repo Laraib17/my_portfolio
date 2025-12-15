@@ -314,7 +314,7 @@ export default function Portfolio() {
           </h2>
           <p className="text-xl text-gray-400 mb-8">
             I'm currently seeking SDE Intern opportunities and open to
-            collaborating on exciting projects
+            collaborating on exciting projects.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
