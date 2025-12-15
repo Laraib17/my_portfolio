@@ -97,7 +97,7 @@ export default function Portfolio() {
           <p className="text-lg text-gray-400 mb-8 max-w-2xl mx-auto">
             CSE Student at Galgotias University | Building innovative web &
             mobile applications | Open source contributor with passion for clean
-            code and impactful solutions
+            code and impactful solutions.
           </p>
           <div className="flex gap-4 justify-center mb-12">
             <a
