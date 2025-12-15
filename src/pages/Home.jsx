@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
 import {
-  Github,
-  Linkedin,
   Mail,
   Code,
   Briefcase,
