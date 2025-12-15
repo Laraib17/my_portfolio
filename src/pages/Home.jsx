@@ -310,7 +310,7 @@ export default function Portfolio() {
       <section id="contact" className="py-20 px-6 bg-slate-900/50">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-            Let's Build Something Together
+            Let's Build it Together
           </h2>
           <p className="text-xl text-gray-400 mb-8">
             I'm currently seeking SDE Intern opportunities and open to
