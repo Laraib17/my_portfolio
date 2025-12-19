@@ -21,9 +21,9 @@ export const projects = [
     github: "https://github.com/laraib17/chat-in-group" // Placeholder
   },
   {
-    title: "WW-3 2D Game",
+    title: "CryptoForecast-ML ",
     description: "Side-scrolling helicopter game with collision detection, physics, and sprite animations using SDL library.",
-    tech: ["C++", "SDL", "OOP"],
+    tech: ["Python", "Machine Learning"],
     github: "https://github.com/laraib17/ww3-game" // Placeholder
   },
   {
