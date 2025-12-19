@@ -6,6 +6,8 @@ import {
   GraduationCap,
   Award,
   ExternalLink,
+  Github,
+  Linkedin,
   ChevronDown,
 } from "lucide-react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
