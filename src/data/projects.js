@@ -1,5 +1,11 @@
 export const projects = [
   {
+    title: "CryptoForecast-ML ",
+    description: "Built an AI/ML system to predict next-day cryptocurrency prices across 25 digital assets Engineered 70+ technical indicators and time-series features from 5 years of market data Trained and compared 8 ML algorithms (Random Forest, XGBoost, LightGBM); achieved R2 > 0.95",
+    tech: ["Python", "Machine Learning", "Data Analysis", "Data Visualization"],
+    github: "https://github.com/Laraib17/crypto_price_prediction" // Placeholder
+  },
+  {
     title: "Chittha - AI Blog Platform",
     description: "Dynamic blogging platform with full CRUD functionality, secure authentication, and optimized RESTful APIs reducing load time by 40%.",
     tech: ["JSP", "MySQL", "Bootstrap", "AJAX", "SHA-256"],
@@ -20,22 +26,4 @@ export const projects = [
     highlight: "100+ Users",
     github: "https://github.com/laraib17/chat-in-group" // Placeholder
   },
-  {
-    title: "CryptoForecast-ML ",
-    description: "Side-scrolling helicopter game with collision detection, physics, and sprite animations using SDL library.",
-    tech: ["Python", "Machine Learning"],
-    github: "https://github.com/laraib17/ww3-game" // Placeholder
-  },
-  {
-    title: "WW-3 2D Game",
-    description: "Side-scrolling helicopter game with collision detection, physics, and sprite animations using SDL library.",
-    tech: ["C++", "SDL", "OOP"],
-    github: "https://github.com/laraib17/ww3-game" // Placeholder
-  },
-  {
-    title: "WW-3 2D Game",
-    description: "Side-scrolling helicopter game with collision detection, physics, and sprite animations using SDL library.",
-    tech: ["C++", "SDL", "OOP"],
-    github: "https://github.com/laraib17/ww3-game" // Placeholder
-  }
 ];
