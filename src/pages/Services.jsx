@@ -52,7 +52,12 @@ const Services = () => {
                 <div className="w-12 h-12 bg-blue-500/10 rounded-lg flex items-center justify-center mb-6 group-hover:bg-blue-500/20 transition-colors">
                   <IconComponent className="w-6 h-6 text-blue-400 group-hover:text-blue-300" />
                 </div>
-g-relaxed">
+
+                <h3 className="text-xl font-bold mb-3 text-gray-100 group-hover:text-blue-400 transition-colors">
+                  {item.title}
+                </h3>
+
+                <p className="text-gray-400 mb-6 leading-relaxed">
                   {item.description}
                 </p>
 
