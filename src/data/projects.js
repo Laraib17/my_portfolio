@@ -7,7 +7,7 @@ export const projects = [
   },
   {
     title: "Chittha - AI Blog Platform",
-    description: "Dynamic blogging platform with full CRUD functionality, secure authentication, and optimized RESTful APIs reducing load time by 40%.",
+    description: "Dynamic blogging platform with full functionality, secure authentication, and optimized RESTful APIs reducing load time by 40%.",
     tech: ["JSP", "MySQL", "Bootstrap", "AJAX", "SHA-256"],
     status: "Current",
     github: "https://github.com/laraib17/chittha" // Placeholder
