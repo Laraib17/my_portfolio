@@ -32,7 +32,7 @@ const Services = () => {
             className="text-gray-400 text-lg max-w-2xl mx-auto"
           >
             I offer a range of high-quality digital services to help bring your
-            innovative ideas to life.
+            innovative ideas to life and make your projects successful.
           </motion.p>
         </div>
 
