@@ -62,7 +62,7 @@ const Services = () => {
                 </p>
 
                 <button className="flex items-center text-sm font-medium text-blue-400 hover:text-blue-300 transition-colors group/btn">
-                  Learn More,About me.
+                  Learn More,About me
                   <ArrowRight className="w-4 h-4 ml-2 transform group-hover/btn:translate-x-1 transition-transform" />
                 </button>
               </motion.div>
