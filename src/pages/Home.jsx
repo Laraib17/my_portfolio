@@ -326,7 +326,7 @@ export default function Portfolio() {
               className="px-8 py-4 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg font-semibold hover:shadow-lg hover:shadow-purple-500/50 transition-all hover:scale-105 flex items-center justify-center gap-2"
             >
               <Mail className="w-5 h-5" />
-              Email Me
+              Email Me.
             </a>
             <a
               href="https://linkedin.com/in/laraib"
