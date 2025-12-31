@@ -288,15 +288,13 @@ export default function Portfolio() {
                 <GraduationCap className="w-8 h-8 text-purple-400" />
               </div>
               <h3 className="text-xl font-semibold mb-2">8.0 CGPA</h3>
-              <p className="text-gray-400">
-                Dean's List Recognition <br />{" "}
-              </p>
+              <p className="text-gray-400">Dean's List Recognition </p>
             </div>
             <div className="bg-slate-800/50 p-6 rounded-xl border border-purple-500/20 text-center hover:border-purple-500/40 transition-all hover:transform hover:scale-105">
               <div className="w-16 h-16 mx-auto mb-4 bg-purple-500/20 rounded-full flex items-center justify-center">
                 <Code className="w-8 h-8 text-purple-400" />
               </div>
-              <h3 className="text-xl font-semibold mb-2">15+ Repositories</h3>
+              <h3 className="text-xl font-semibold mb-2">25+ Repositories</h3>
               <p className="text-gray-400">Active Open Source Contributor</p>
             </div>
             <div className="bg-slate-800/50 p-6 rounded-xl border border-purple-500/20 text-center hover:border-purple-500/40 transition-all hover:transform hover:scale-105">
