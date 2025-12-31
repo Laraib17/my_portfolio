@@ -301,7 +301,9 @@ export default function Portfolio() {
               <div className="w-16 h-16 mx-auto mb-4 bg-purple-500/20 rounded-full flex items-center justify-center">
                 <Award className="w-8 h-8 text-purple-400" />
               </div>
-              <h3 className="text-xl font-semibold mb-2">Published Research</h3>
+              <h3 className="text-xl font-semibold mb-2">
+                Published Researches
+              </h3>
               <p className="text-gray-400">AI in Medical Diagnosis</p>
             </div>
           </div>
