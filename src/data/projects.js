@@ -6,6 +6,13 @@ export const projects = [
     github: "https://github.com/Laraib17/crypto_price_prediction" // Placeholder
   },
   {
+    title: "Chittha - AI Blog Platform",
+    description: "Dynamic blogging platform with full CRUD functionality, secure authentication, and optimized RESTful APIs reducing load time by 40%.",
+    tech: ["JSP", "MySQL", "Bootstrap", "AJAX", "SHA-256"],
+    status: "Current",
+    github: "https://github.com/laraib17/chittha" // Placeholder
+  },
+  {
     title: "Parkinson's Disease Prediction",
     description: "ML model using Support Vector Machine achieving 95% accuracy in disease detection. Published research paper documenting methodology and clinical applications.",
     tech: ["Python", "Scikit-learn", "NumPy", "Pandas"],
