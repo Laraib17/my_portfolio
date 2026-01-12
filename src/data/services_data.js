@@ -9,7 +9,7 @@ export const service = [
       id: "2",
       title: "Flutter Apps",
       description: "High-performance, cross-platform mobile applications for iOS and Android with stunning UI/UX design.",
-      icon: "Smartphone",
+      icon: "Smartphones",
     },
     {
       id: "3",
