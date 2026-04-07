@@ -1,6 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 
+
+
 const PurpleBubbles = () => {
   return (
     <div className="absolute inset-0 overflow-hidden pointer-events-none">
