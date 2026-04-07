@@ -12,9 +12,7 @@ const App = () => {
       <div className={`fixed top-0 left-0 w-64 h-full bg-white shadow-lg transition-transform transform ${
         isOpen ? "translate-x-0" : "-translate-x-full"
       }`}>
-        
-        <div className="p-4">
-            
+        <div className="p-4">    
           <h2 className="text-xl font-semibold mb-4">Drawer Menu</h2>
           <ul className="space-y-4">
             <li><a href="#" className="text-gray-800 hover:text-blue-500">Home</a></li>
