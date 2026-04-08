@@ -3,7 +3,7 @@ import { logo } from "../assets/assets";
 import { profile_icon } from "../assets/assets";
 const BasicExample = () => {
   return (
-    <div className="flex items-center justify-between sm:items-center px-10 py-4 bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white">
+    <div className="flex items-center justify-between sm:items-center px-10 py-4 bg-linear-to-br from-slate-900 via-purple-900 to-slate-900 text-white">
       <div className="flex items-center gap-2 justify-between">
         <button
           onClick={() =>
