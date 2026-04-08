@@ -5,14 +5,14 @@ const BasicExample = () => {
   return (
     <div className="flex items-center justify-between sm:items-center px-10 py-4 bg-linear-to-br from-slate-900 via-purple-900 to-slate-900 text-white">
       <div className="flex items-center gap-2 justify-between">
-        <button
+        {/* <button
           onClick={() =>
             (document.getElementById("my-drawer-3").checked = true)
           }
           className="drawer-toggle btn btn-primary lg:hidden"
         >
           =
-        </button>
+        </button> */}
         <img src={logo} alt="Logo" className="h-8 w-10" />
       </div>
       <ul className="flex gap-8 flex-row text-md font-medium">
