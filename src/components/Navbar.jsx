@@ -34,7 +34,7 @@ const BasicExample = () => {
         </NavLink>
       </ul>
       <div className="flex items-center gap-4">
-        <button className="bg-purpl text-white px-4 py-2 rounded-full hover:bg-purpl font-semibold" onClick={() => window.open("https://www.buymeacoffee.com/yourusername", "_blank")}>
+        <button className="bg-purpl-900 text-white px-4 py-2 rounded-full hover:bg-purpl-600 font-semibold" onClick={() => window.open("https://www.buymeacoffee.com/yourusername", "_blank")}>
           Coffee
         </button>
         <div className="group relative">
