@@ -329,7 +329,7 @@ export default function Portfolio() {
               Email Me.
             </a>
             <a
-              href="https://linkedin.com/in/laraib"
+              href="www.linkedin.com/in/laraib-ahmad-b96214251"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-4 bg-slate-800 rounded-lg font-semibold border border-purple-500/30 hover:bg-slate-700 transition-all flex items-center justify-center gap-2"
