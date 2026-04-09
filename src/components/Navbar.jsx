@@ -13,7 +13,7 @@ const BasicExample = () => {
         >
           =
         </button> */}
-        <img src={logo} alt="Logo" className="h-8 w-10" />
+        <img src={logo} alt="Logo" className="h-8 w-10 rounded-full hover:border hover: size-2.5 border-purple-500" />
       </div>
       <ul className="flex gap-8 flex-row text-md font-medium">
         <NavLink to="/" className="flex flex-col items-center gap- ">
