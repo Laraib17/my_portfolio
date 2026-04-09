@@ -73,7 +73,7 @@ export default function Portfolio() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white">
+    <div className="min-h-screen bg-linear-to-br from-slate-900 via-purple-900 to-slate-900 text-white">
       {/* Hero Section */}
       <section
         id="home"
@@ -90,7 +90,7 @@ export default function Portfolio() {
               <Cursor cursorColor="#d946ef" />
             </span>
           </div>
-          <h1 className="text-6xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent">
+          <h1 className="text-6xl md:text-7xl font-bold mb-6 bg-linear-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent">
             Laraib Ahmad
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-4">
@@ -128,7 +128,7 @@ export default function Portfolio() {
           <div className="flex gap-4 justify-center">
             <NavLink
               to="/projects"
-              className="px-8 py-3 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg font-semibold hover:shadow-lg hover:shadow-purple-500/50 transition-all hover:scale-105"
+              className="px-8 py-3 bg-linear-to-rrom-purple-500 to-pink-500 rounded-lg font-semibold hover:shadow-lg hover:shadow-purple-500/50 transition-all hover:scale-105"
             >
               View My Work
             </NavLink>
@@ -148,7 +148,7 @@ export default function Portfolio() {
       {/* Skills Section */}
       <section className="py-20 px-6 bg-slate-900/50">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold mb-12 text-center bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+          <h2 className="text-4xl font-bold mb-12 text-center bg-linear-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
             Technical Skills
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -179,7 +179,7 @@ export default function Portfolio() {
       {/* Projects Section */}
       <section id="projects" className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
-          <h2 className=" text-4xl font-bold mb-12 text-center bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+          <h2 className=" text-4xl font-bold mb-12 text-center bg-linear-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
             Featured Projects
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
@@ -214,7 +214,7 @@ export default function Portfolio() {
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-purple-400 hover:text-purple-300 mb-4 inline-block flex items-center gap-1"
+                    className="text-purple-400 hover:text-purple-300 mb-4 flex items-center gap-1"
                   >
                     <Github className="w-4 h-4" /> View Project
                   </a>
@@ -238,7 +238,7 @@ export default function Portfolio() {
       {/* Experience Section */}
       <section id="experience" className="py-20 px-6 bg-slate-900/50">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold mb-12 text-center bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+          <h2 className="text-4xl font-bold mb-12 text-center bg-linear-to-rrom-purple-400 to-pink-400 bg-clip-text text-transparent">
             Experience
           </h2>
           <div className="space-y-8">
@@ -279,7 +279,7 @@ export default function Portfolio() {
       {/* Achievements Section */}
       <section className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold mb-12 text-center bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+          <h2 className="text-4xl font-bold mb-12 text-center bg-linear-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
             Achievements
           </h2>
           <div className="grid md:grid-cols-3 gap-6">
@@ -313,7 +313,7 @@ export default function Portfolio() {
       {/* Contact Section */}
       <section id="contact" className="py-20 px-6 bg-slate-900/50">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+          <h2 className="text-4xl font-bold mb-6 bg-linear-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
             Let's Build it Together
           </h2>
           <p className="text-xl text-gray-400 mb-8">
@@ -323,7 +323,7 @@ export default function Portfolio() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="mailto:labbuxt@gmail.com"
-              className="px-8 py-4 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg font-semibold hover:shadow-lg hover:shadow-purple-500/50 transition-all hover:scale-105 flex items-center justify-center gap-2"
+              className="px-8 py-4 bg-linear-to-r from-purple-500 to-pink-500 rounded-lg font-semibold hover:shadow-lg hover:shadow-purple-500/50 transition-all hover:scale-105 flex items-center justify-center gap-2"
             >
               <Mail className="w-5 h-5" />
               Email Me.
