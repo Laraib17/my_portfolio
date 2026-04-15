@@ -46,7 +46,7 @@ export default function Portfolio() {
     },
     {
       role: "Flutter Development Tutor",
-      company: "Hunar Academy",
+      company: "Hunar Academy ",
       period: "Aug. 2023 – Dec. 2023 ",
       location: "New Delhi, India",
       achievements: [
