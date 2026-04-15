@@ -51,7 +51,7 @@ export default function Portfolio() {
       location: "New Delhi, India",
       achievements: [
         "Instructed 25+ students in OOP principles and Flutter development",
-        "Designed comprehensive curriculum lots covering Dart and mobile architecture",
+        "Designed comprehensive curriculum covering Dart and mobile architecture",
         "Achieved 90% course completion rate through hands-on mentoring",
       ],
     },
