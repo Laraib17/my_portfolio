@@ -50,7 +50,7 @@ export default function Portfolio() {
       period: "Aug. 2023 – Dec. 2023 ",
       location: "New Delhi, India",
       achievements: [
-        "Instructed 25+ students in OOP principles and Flutter development",
+        "Instructed 25+ s tudents in OOP principles and Flutter development",
         "Designed comprehensive curriculum covering Dart and mobile architecture",
         "Achieved 90% course completion rate through hands-on mentoring",
       ],
