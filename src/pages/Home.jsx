@@ -39,7 +39,7 @@ export default function Portfolio() {
       period: "Aug. 2024 – Nov. 2024",
       location: "New Delhi, India (Remote)",
       achievements: [
-        "Developed full-stack web application using React.js, Node.js, and Docker",
+        "Developed  full-stack web application using React.js, Node.js, and Docker",
         "Created data visualization dashboard reducing manual analysis time by 60%",
         "Collaborated with cross-functional team using Agile methodology",
       ],
