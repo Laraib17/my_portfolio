@@ -1,19 +1,10 @@
 import { NavLink } from "react-router-dom";
-// import { logo } from "../assets";
-// import { profile_icon } from "../assets";
+import {logo,profile_icon} from "../assets/logo.png";
 const BasicExample = () => {
   return (
     <div className="flex items-center justify-between sm:items-center px-10 py-4 bg-linear-to-br from-slate-900 via-purple-900 to-slate-900 text-white">
-      <div className="flex items-center gap-2 justify-between">
-        {/* <button
-          onClick={() =>
-            (document.getElementById("my-drawer-3").checked = true)
-          }
-          className="drawer-toggle btn btn-primary lg:hidden"
-        >
-          =
-        </button> */}
-        {/* <img src={logo} alt="Logo" className="h-8 w-10 rounded-full hover:border hover: size-2.5 border-purple-500" /> */}
+      <div className="sm:items-center-safe h-10 w-10 ">
+        <img src={logo} alt="logo"/>
       </div>
       <ul className="flex gap-8 flex-row text-md font-medium">
         <NavLink to="/" className="flex flex-col items-center gap- ">
@@ -34,18 +25,14 @@ const BasicExample = () => {
         </NavLink>
       </ul>
       <div className="flex items-center gap-4">
-        <button className="bg-purpl-900 text-white px-4 py-2 rounded-full hover:bg-purpl-600 font-semibold" onClick={() => (null)}>
+        <button className="bg-purpl-900 text-white px-4 py-2 rounded-full font-semibold" onClick={() => (null)}>
           Coffee
         </button>
         <div className="group relative">
-          {/* <img
+          <img
             className="w-10 cursor-pointer rounded-full"
             src={profile_icon}
-            alt=""
-          /> */}
-          <div className="group-hover:block hidden absolute right-0 mt-2 w-48 bg-white border border-gray-200 rounded shadow-lg">
-            <div className="p-4 border-b border-gray-200"></div>
-          </div>
+            alt="Profile"/>
         </div>
       </div>
     </div>
