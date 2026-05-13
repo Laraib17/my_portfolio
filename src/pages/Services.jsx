@@ -36,9 +36,8 @@ const Services = () => {
           </motion.p>
           <button className="flex items-center text-sm font-medium text-blue-400 hover:text-blue-300 transition-colors group/btn">
                     Get in Touch
-
-                  <ArrowRight className="w-4 h-4 ml-2 transform group-hover/btn:translate-x-1 transition-transform" />
-                </button>
+          <ArrowRight className="w-4 h-4 ml-2 transform group-hover/btn:translate-x-1 transition-transform" />
+          </button>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
