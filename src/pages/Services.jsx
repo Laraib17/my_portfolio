@@ -3,7 +3,7 @@ import { service } from "../data/services_data";
 import { Globe, Smartphone, Brain, Code, ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
 import PurpleBubbles from "../components/PurpleBubbles";
-
+import { NavLink } from "react-router-dom";
 const iconMap = {
   Globe: Globe,
   Smartphone: Smartphone,
@@ -16,7 +16,7 @@ const Services = () => {
     <div className="min-h-screen bg-gray-900 text-white py-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
       <PurpleBubbles />
       <div className="max-w-7xl mx-auto relative z-10">
-        <div className="text-center mb-16">
+        <div className="text-center mb-8">
           <motion.h2
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -34,12 +34,16 @@ const Services = () => {
             I offer a range of high-quality digital services to help bring your
             innovative ideas to life and make your projects successful.
           </motion.p>
-          <button className="flex items-center text-sm font-medium text-blue-400 hover:text-blue-300 transition-colors group/btn">
-                    Get in Touch
-          <ArrowRight className="w-4 h-4 ml-2 transform group-hover/btn:translate-x-1 transition-transform" />
-          </button>
+          
         </div>
-
+        <div className="mb-10 items-center justify-center flex">
+          <nav>
+            <NavLink to="/get_service.jsx" className="flex items-center text-sm font-extrabold text-blue-400 hover:text-blue-300 transition-colors group/btn">
+              Avail Service
+              <ArrowRight className="w-4 h-4 ml-2 transform group-hover/btn:translate-x-1 transition-transform" />
+            </NavLink>
+          </nav>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {service.map((item, index) => {
             const IconComponent = iconMap[item.icon] || Code;
