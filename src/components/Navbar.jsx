@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
-import {logo,profile_icon} from "../assets/logo.png";
+import logo from "../assets/logo.png";
+import profile_icon from "../assets/profile_icon.png";
 const BasicExample = () => {
   return (
     <div className="flex items-center justify-between sm:items-center px-10 py-4 bg-linear-to-br from-slate-900 via-purple-900 to-slate-900 text-white">
