@@ -34,6 +34,11 @@ const Services = () => {
             I offer a range of high-quality digital services to help bring your
             innovative ideas to life and make your projects successful.
           </motion.p>
+          <button className="flex items-center text-sm font-medium text-blue-400 hover:text-blue-300 transition-colors group/btn">
+                    Get in Touch
+
+                  <ArrowRight className="w-4 h-4 ml-2 transform group-hover/btn:translate-x-1 transition-transform" />
+                </button>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -61,10 +66,7 @@ const Services = () => {
                   {item.description}
                 </p>
 
-                <button className="flex items-center text-sm font-medium text-blue-400 hover:text-blue-300 transition-colors group/btn">
-                  Learn More,About me
-                  <ArrowRight className="w-4 h-4 ml-2 transform group-hover/btn:translate-x-1 transition-transform" />
-                </button>
+                
               </motion.div>
             );
           })}
