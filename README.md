@@ -69,16 +69,6 @@ I love building intelligent and user-friendly applications — from **AI/ML mode
    ```bash
    npm start     # or flutter run
    ```
-
----
-
-## 📬 Contact
-
-📧 **Email:** [yourname@email.com](mailto:yourname@email.com)
-💼 **LinkedIn:** [linkedin.com/in/yourprofile](#)
-🐙 **GitHub:** [github.com/yourusername](#)
-🌐 **Portfolio Link:** [your-portfolio-link.com](#)
-
 ---
 
 ## 📝 License
