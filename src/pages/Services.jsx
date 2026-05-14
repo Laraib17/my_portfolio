@@ -38,7 +38,7 @@ const Services = () => {
         </div>
         <div className="mb-10 items-center justify-center flex">
           <nav>
-            <NavLink to="/get_service.jsx" className="flex items-center text-sm font-extrabold text-blue-400 hover:text-blue-300 transition-colors group/btn">
+            <NavLink to="/get-service" className="flex items-center text-sm font-extrabold text-blue-400 hover:text-blue-300 transition-colors group/btn">
               Avail Service
               <ArrowRight className="w-4 h-4 ml-2 transform group-hover/btn:translate-x-1 transition-transform" />
             </NavLink>
