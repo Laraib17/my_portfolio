@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "packageManager": "pnpm@10.0.0",
   "homepage": "https://Laraib17.github.io/my_portfolio",
   "scripts": {
     "dev": "vite",
