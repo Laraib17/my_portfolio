@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import EscapeText from "../components/Escape_Text";
+import EscapeText from "../components/Escape_text";
 import { useMutation } from "@tanstack/react-query";
 import { Github, Linkedin, Twitter, Mail, Loader2, Send } from "lucide-react";
 
