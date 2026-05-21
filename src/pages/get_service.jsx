@@ -23,6 +23,20 @@ const initialForm = {
 const inputClasses =
   "w-full rounded-lg border border-gray-700 bg-gray-950/70 px-4 py-3 text-sm text-white outline-none transition focus:border-blue-400";
 
+const withTimeout = (promise, timeoutMs = 15000) =>
+  Promise.race([
+    promise,
+    new Promise((_, reject) => {
+      setTimeout(() => {
+        reject(
+          new Error(
+            "Request timed out. Check your Firestore setup, internet connection, and security rules."
+          )
+        );
+      }, timeoutMs);
+    }),
+  ]);
+
 const GetService = () => {
   const [user, setUser] = useState(null);
   const [authReady, setAuthReady] = useState(false);
@@ -98,14 +112,16 @@ const GetService = () => {
     setSuccess("");
 
     try {
-      await addDoc(collection(db, "serviceRequests"), {
-        ...form,
-        serviceTitle: selectedService?.title || "",
-        uid: user.uid,
-        userEmail: user.email || form.email,
-        userName: user.displayName || form.name,
-        createdAt: serverTimestamp(),
-      });
+      await withTimeout(
+        addDoc(collection(db, "serviceRequests"), {
+          ...form,
+          serviceTitle: selectedService?.title || "",
+          uid: user.uid,
+          userEmail: user.email || form.email,
+          userName: user.displayName || form.name,
+          createdAt: serverTimestamp(),
+        })
+      );
 
       setForm({
         ...initialForm,
