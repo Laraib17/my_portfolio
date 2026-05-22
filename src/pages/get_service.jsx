@@ -271,7 +271,6 @@ const GetService = () => {
                       required
                     >
 
-                      
                       {service.map((item) => (
                         <option key={item.id} value={item.id}>
                           {item.title}
