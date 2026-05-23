@@ -135,7 +135,6 @@ const GetService = () => {
       setSubmitting(false);
     }
   };
-
   return (
     <main className="relative min-h-screen overflow-hidden bg-gray-900 px-4 py-20 text-white sm:px-6 lg:px-8">
       <PurpleBubbles />
