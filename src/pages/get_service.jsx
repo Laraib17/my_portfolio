@@ -147,7 +147,7 @@ const GetService = () => {
         >
           <p className="mb-3 flex items-center gap-2 text-sm font-semibold text-blue-300">
             <ShieldCheck size={18} />
-            Secure service request
+            Secure service request 
           </p>
           <h1 className="mb-4 text-4xl font-bold text-white md:text-5xl">
             Get a Service
