@@ -36,9 +36,9 @@ export default function Contact() {
 
   const socialLinks = [
     { icon: Github, href: "https://github.com/Laraib17", label: "GitHub" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
-    { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Mail, href: "mailto:contact@example.com", label: "Email" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/laraib-ahmad-b96214251/", label: "LinkedIn" },
+    { icon: Twitter, href: "https://twitter.com/laraib_ahmad", label: "Twitter" },
+    { icon: Mail, href: "mailto:labbuxt@gmail.com", label: "Email" },
   ];
 
   const inputClasses =
