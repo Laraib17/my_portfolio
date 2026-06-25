@@ -37,7 +37,7 @@ export default function Contact() {
   const socialLinks = [
     { icon: Github, href: "https://github.com/Laraib17", label: "GitHub" },
     { icon: Linkedin, href: "https://www.linkedin.com/in/laraib-ahmad-b96214251/", label: "LinkedIn" },
-    { icon: Twitter, href: "https://twitter.com/laraib_ahmad", label: "Twitter" },
+    { icon: Twitter, href: "https://twitter.com/Labbu_0", label: "Twitter" },
     { icon: Mail, href: "mailto:labbuxt@gmail.com", label: "Email" },
   ];
 
