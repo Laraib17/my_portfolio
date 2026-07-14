@@ -154,7 +154,7 @@ const GetService = () => {
           </h1>
           <p className="text-base leading-7 text-gray-300 md:text-lg">
             Sign in with Google to request a project, share your requirements,
-            and keep the conversation connected to your account .
+            and keep the conversation connected to your account results.
           </p>
         </motion.div>
 
