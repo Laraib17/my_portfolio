@@ -1,2 +1,4 @@
-const math=require('./math')
-console.log(math);
+function name(name) {
+    console.log("Hello, " + name + "!");
+}
+name("Laraib");
